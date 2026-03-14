@@ -5,6 +5,6 @@ function validateInput(input, pattern){
     if(regex.test(input.value)){
         input.style.backgroundColor = "lightgreen";
     }else{
-        input.style.backgroundColor = "rgb(255, 192, 203)";
+        input.style.backgroundColor = "pink";
     }
 }
